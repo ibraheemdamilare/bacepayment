@@ -1,0 +1,47 @@
+.home-header {
+    background-image: url('https://img.freepik.com/free-photo/detailed-structure-marble-natural-pattern-background-design_1258-77564.jpg?t=st=1710673089~exp=1710676689~hmac=e161d401f5a0b23b167636a2aa885c7b86463461bfcdabc73e2c3e161adbaacb&w=740');
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 150px;
+
+}
+.home-header img {
+    width: 40vw;
+}
+.bace {
+    font-family: "Lato";
+    color: #2A58EB;
+    font-size: 45px;
+    font-weight: 900;
+}
+.bace-text {
+    font-family: "Lato";
+    color: black;
+    font-size: 45px;
+    font-weight: 900;
+    width: 30vw;
+    margin-top: -30px;
+}
+.body-text {
+    width: 48vw;
+    font-family: "Lato";
+}
+
+@media screen and (max-width: 540px) {
+    .home-header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .home-header img {
+        width: 80vw;
+    }
+    .bace-text {
+        width: 80vw;
+    }
+    .body-text {
+        width: 90vw;
+    }
+}

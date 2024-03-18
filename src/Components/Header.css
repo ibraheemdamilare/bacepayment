@@ -1,0 +1,33 @@
+.top {
+    background-color: rgb(4, 4, 78);
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+}
+.text p {
+    color: white;
+    font-family: 'Lato';
+    margin-left: 2vw;
+}
+.links p {
+    color: white;
+    font-family: 'Lato';
+    cursor: pointer;
+    margin-right: 2vw;
+}
+span { 
+    cursor: 'pointer';
+    margin-left: '3px'
+}
+
+@media screen and (max-width: 540px) {
+    .text p {
+        font-size: 8px;
+    }
+    .links p {
+        font-size: 8px;
+    }
+    .top {
+        height: 4vh;
+    }
+}

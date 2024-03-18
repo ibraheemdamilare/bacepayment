@@ -1,0 +1,65 @@
+.application {
+    background-image: url("https://img.freepik.com/free-photo/luxury-plain-green-gradient-abstract-studio-background-empty-room-with-space-your-text-picture_1258-63580.jpg?t=st=1710682620~exp=1710686220~hmac=7fe30eddf60e4fae47082fd032502a4a676eed93cd050217688955d02c524a0e&w=1380");
+    background-size: cover;
+    margin-top: -35px;
+}
+.mobile-app {
+    color: black;
+    font-family: "Lato";
+    font-size: 45px;
+    text-align: center;
+    padding-top: 60px;
+}
+.powerful {
+    font-family: "Lato";
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+    margin-top: -45px;
+}
+.flex-mobile {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    align-items: center;
+}
+.flex-mobile1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    align-items: center;
+}
+.text-right {
+    display: block;
+    list-style: disc;
+    font-family: "Shippori Mincho B1", serif;
+}
+.text-right li {
+    cursor: default;
+    margin-top: 15px;
+}
+.text-left {
+    font-family: "Shippori Mincho B1", serif;
+    font-size: 30px;
+    font-weight: 900;
+    color: #2A58EB;
+}
+
+
+
+@media screen and (max-width: 540px) {
+    .mobile-app {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .powerful {
+        font-size: 10px;
+        margin-top: -26px;
+    }
+    .flex-mobile {
+        flex-direction: column;
+    }
+    .flex-mobile1 {
+        flex-direction: column-reverse;
+    }
+}

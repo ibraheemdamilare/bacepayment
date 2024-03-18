@@ -1,0 +1,76 @@
+.navbar {
+    background-color: white;
+    border-bottom: 2px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+    height: 5vw;
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.linkss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+.linkss img {
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+}
+ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+li {
+    cursor: pointer;
+    font-family: 'Lato';
+}
+.button {
+    background-color: #2A58EB;
+    color: white;
+    font-family: "Lato";
+    border: 2px solid #2A58EB;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 35px;
+}
+.none {
+    display: flex;
+}
+.none1 {
+    display: block;
+}
+.mobile-view {
+    display: none;
+}
+
+@media screen and (max-width: 540px) {
+    .none, .none1 {
+        display: none
+    }
+    .linkss img {
+        height: 20px;
+        width: 75px;
+    }
+    .navbar {
+        height: 8vw;
+    
+    }
+    .mobile-view {
+        display: block;
+        margin-right: 40px;
+        cursor: pointer;
+    }
+    .mobile-view-icon {
+        font-size: 24px;
+        color: #2A58EB;
+    }
+}
